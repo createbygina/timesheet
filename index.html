@@ -10,12 +10,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <title>Time Sheet</title>
-
-
 </head>
-
 <body>
-
   <div class="container">
     <div class="jumbotron" style="background-color: black; color: white">
       <h1 class="display-4">Employee Data Management
@@ -24,28 +20,31 @@
     </div>
   </div>
   <div class="container">
-        <div class="card">
-    <table class="table">
-      <thead>
-        <tr>
-          <th scope="col">Employee Name</th>
-          <th scope="col">Role</th>
-          <th scope="col">Start Date</th>
-          <th scope="col">Months Worked</th>
-          <th scope="col">Monthly Rate ($)</th>
-          <th scope="col">Total Billed ($)</th>
-        </tr>
-      </thead>
-      <tbody id="tableBody">
-      </tbody>
-    </table>
+    <div class="card" id="cardTable">
+      <div class="card-header" style="background-color: #327ab7;">
+        Current Employees
+      </div>
+      <table class="table" id="tableContainer">
+        <thead>
+          <tr>
+            <th scope="col">Employee Name</th>
+            <th scope="col">Role</th>
+            <th scope="col">Start Date</th>
+            <th scope="col">Months Worked</th>
+            <th scope="col">Monthly Rate ($)</th>
+            <th scope="col">Total Billed ($)</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+      </table>
+    </div>
   </div>
   </div>
-</div>
 
   <div class="container">
-    <div class="card">
-      <div class="card-header">
+    <div class="card" id="cardForm">
+      <div class="card-header" style="background-color: #327ab7;">
         Add Employees
       </div>
       <form>
