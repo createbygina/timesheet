@@ -1,3 +1,3 @@
-### Employee Data Management Timesheet
+## Employee Data Management Timesheet
 
 [Click here](https://eunhyegina.github.io/timesheet/)
